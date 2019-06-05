@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = NSLocalizedString(@"MENU", nil);
     // Do any additional setup after loading the view.
 }
 

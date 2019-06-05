@@ -20,7 +20,19 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8od-Dz-a83"/>
+                    <toolbarItems>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="M6L-IX-JPd"/>
+                        <barButtonItem systemItem="compose" id="zIx-rQ-jfK"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="lnq-LQ-YVJ"/>
+                        <barButtonItem systemItem="camera" id="vhS-BD-L1f"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="wcv-rW-rsp"/>
+                        <barButtonItem systemItem="bookmarks" id="Ri7-h6-ugg"/>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="EAS-hE-YDD"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="8od-Dz-a83">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="xG3-0n-A7i"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
