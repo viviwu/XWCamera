@@ -20,6 +20,8 @@
 		0D9465B322A76E9800F8F396 /* XWCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9465B222A76E9800F8F396 /* XWCameraViewController.m */; };
 		0D9465B622A76F0500F8F396 /* XWSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9465B522A76F0500F8F396 /* XWSetTableViewController.m */; };
 		0D9465D622A7DDBA00F8F396 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9465D822A7DDBA00F8F396 /* Localizable.strings */; };
+		0D9465DC22A8B4A000F8F396 /* Filters.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9465DE22A8B4A000F8F396 /* Filters.strings */; };
+		0D9465E222A91BBD00F8F396 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9465E122A91BBD00F8F396 /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		0D9465D522A7DDB300F8F396 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		0D9465D722A7DDBA00F8F396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0D9465D922A7DDBE00F8F396 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0D9465DD22A8B4A000F8F396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Filters.strings; sourceTree = "<group>"; };
+		0D9465DF22A8B4A300F8F396 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Filters.strings"; sourceTree = "<group>"; };
+		0D9465E122A91BBD00F8F396 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9465E222A91BBD00F8F396 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +107,7 @@
 				0D94659422A76C4500F8F396 /* XWCameraTests */,
 				0D94659F22A76C4500F8F396 /* XWCameraUITests */,
 				0D94657722A76C4400F8F396 /* Products */,
+				0D9465E022A91BBD00F8F396 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +150,7 @@
 				0D94659522A76C4500F8F396 /* XWCameraTests.m */,
 				0D94659722A76C4500F8F396 /* Info.plist */,
 				0D9465D822A7DDBA00F8F396 /* Localizable.strings */,
+				0D9465DE22A8B4A000F8F396 /* Filters.strings */,
 			);
 			path = XWCameraTests;
 			sourceTree = "<group>";
@@ -154,6 +162,14 @@
 				0D9465A222A76C4500F8F396 /* Info.plist */,
 			);
 			path = XWCameraUITests;
+			sourceTree = "<group>";
+		};
+		0D9465E022A91BBD00F8F396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9465E122A91BBD00F8F396 /* libiconv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9465DC22A8B4A000F8F396 /* Filters.strings in Resources */,
 				0D9465D622A7DDBA00F8F396 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +375,15 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
+		0D9465DE22A8B4A000F8F396 /* Filters.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9465DD22A8B4A000F8F396 /* en */,
+				0D9465DF22A8B4A300F8F396 /* zh-Hans */,
+			);
+			name = Filters.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -413,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -467,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
