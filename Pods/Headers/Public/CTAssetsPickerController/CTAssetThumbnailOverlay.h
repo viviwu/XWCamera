@@ -1,0 +1,1 @@
+../../../../CTAssetsPickerController/CTAssetThumbnailOverlay.h

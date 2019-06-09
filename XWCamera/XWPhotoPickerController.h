@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CTAssetsPickerController/CTAssetsPickerController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface XWPhotoPickerController : UIViewController
+@interface XWPhotoPickerController : CTAssetsPickerController
 
 @end
 

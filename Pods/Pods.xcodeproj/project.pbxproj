@@ -1,0 +1,1188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0067D7A0D39CE3AF6E39B8D190EB9843 /* CTAssetsPickerNoAssetsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD048C223F7A0B2444F351167991312 /* CTAssetsPickerNoAssetsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08214ED48FF392334DD514B50DBFA2E8 /* CTAssetsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5FB4B1DFAE0DCD903E9DB988AF8450 /* CTAssetsNavigationController.m */; };
+		09AA1DD6FE1EAAF380A1D5F7A32B8725 /* CTAssetsGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CF880152B25B843305FC9D2FFFFEF /* CTAssetsGridView.m */; };
+		0C45C5C30FCE90DF8C3E6F1ED5145833 /* CTAssetsGridViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E45644C417B7BC6112E6C951B32D9953 /* CTAssetsGridViewFooter.m */; };
+		0D8B333A5465578940A27C94F7066C34 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 510EEB36EADAFCDE59A48FC27560BAE8 /* zh-Hans.lproj */; };
+		0E570B036CD5703D9250F23F2C8CB071 /* CTAssetsGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1BC8840E43FB63F593B862174EFB1 /* CTAssetsGridViewCell.m */; };
+		0FFB600A47C694B31383A73455C29143 /* CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3B0931B651E586747DC82DE6EC50C8 /* CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FFE7F7DB7DC7D94BB168DD78130E26F /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 19E626A169747CC1779E1F40BF873F3B /* da.lproj */; };
+		1149E5A050E26F6A8D9105F92684140D /* CTAssetsGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC988CAFCB4A3668831440CD46DBE78A /* CTAssetsGridView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		128DFDCA780C645B968614EA2D29E047 /* CTAssetScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EE597876C83D275DB6667F682AD2B4 /* CTAssetScrollView.m */; };
+		1627B1DB188D2C8ECF665E70871F4973 /* UICollectionView+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B4C341532460295D7ECBC20308E1 /* UICollectionView+CTAssetsPickerController.m */; };
+		169E5F2308BE90156266A60DCCAA9242 /* CTAssetCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4331853ED041811DCE0BE74B54DE43 /* CTAssetCollectionViewController.m */; };
+		18DA64FA48BEB40A87D9C9D8086FCAB5 /* PHAssetCollection+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D31951B34D6CFD2566AFACE088E350 /* PHAssetCollection+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BA8B45B40788B6AE5C4F65194665E89 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B1AA906FC8111C8C45D4DDFF71C826 /* ALView+PureLayout.m */; };
+		1BCFBF9613C8E6A0972F9F76415FB65D /* CTAssetCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1059EF4D24B2C2F5B5ACFF7F9FF8C559 /* CTAssetCollectionViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		248AF2BDA60904B0FFE9818C7F201A08 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DC5443B441C023C85FDE532613F29B /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28F04FC23A90677F59EEAA71EC02A3D2 /* NSIndexSet+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF220825CDAE397B74C29E71C08EE89 /* NSIndexSet+CTAssetsPickerController.m */; };
+		2B3F8AF5C8B531B0D679E47E45CF8E9C /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 753A80CDCB823A5EC941662131F02235 /* fi.lproj */; };
+		2E0B41FBCDC436399F1965EE10BAFA4A /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE6FCA2769A520385B975FD4DDC09BB /* PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2ECDA499E2A92B5CF1022024A7AAEDD8 /* PHAssetCollection+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA380D1BB3ECDD2B901256FD8E2FCD08 /* PHAssetCollection+CTAssetsPickerController.m */; };
+		302A301AB52AFF8308EBF3879FC9DC22 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A0C9A918FE0359CD8D77659906AA7195 /* sv.lproj */; };
+		308507082E2D8C05B7E45658A2E98ACB /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E4544FA645861858723A3F6D26BB1 /* PureLayout-dummy.m */; };
+		30D08A4166FE987530C3BEC7AAD60282 /* PHAsset+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369B4E23CA0093CE6D4EFAF5F10C06EC /* PHAsset+CTAssetsPickerController.m */; };
+		3231FB50035A4156500C2EB2AA312BFF /* CTAssetsPickerAccessDeniedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F78D745E375DEAAC68255FEEE443B7AA /* CTAssetsPickerAccessDeniedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3409A627A8F0CA68F130AAD60F7E9A2D /* CTAssetsViewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D374302E0CB9F921B8370AA0B503A29 /* CTAssetsViewControllerTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3420C84F258DC0DCF109373F3A742D18 /* CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B534C34E4DA769E739354CC425020D /* CTAssetsPickerController.m */; };
+		342913387A8BE705ACF5A3F140378036 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2DEFC28F8CEAF5132E317E92A45EA989 /* fr.lproj */; };
+		35076E112CFED5EEF65D0B37F0EA48B0 /* CTAssetItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26125EF4DA01462336C6B6F511850461 /* CTAssetItemViewController.m */; };
+		36E24C032927119772E25F53599F20DC /* CTAssetSelectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5FEB0B0E74563C46B917DBD5AA0A9E /* CTAssetSelectionButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38C617323A8F083BD3BB1004CE926F62 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5CDBB685372E6BAC2A96DBB7B1E9606B /* ar.lproj */; };
+		3AB60B23444EC72E7318269484EC5894 /* CTAssetsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011ADDD52EF749F7BB976E4AC53052EF /* CTAssetsPageViewController.m */; };
+		421587DD5B338E854FCCAC4BDC1E3CEF /* CTAssetThumbnailView.h in Headers */ = {isa = PBXBuildFile; fileRef = 476DF87A89C4ADF764BAF043A9BE06EF /* CTAssetThumbnailView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		427192C3AF4FC5174615498FFEC913F6 /* es-MX.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D89C54AEF173D494B09E6A0A3A0C7F85 /* es-MX.lproj */; };
+		449554A2CD7787A7D7B7E83594022EC2 /* CTAssetSelectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3867E169D7027807A019467CD143E43B /* CTAssetSelectionButton.m */; };
+		486A9D363657F939A610A30A0EDFEE4A /* UIImage+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A91EF1A503847FE486075CEC0583B9 /* UIImage+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4937248D257B89A09E8206B9C8F55FC3 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24367F754F91301B1953C72D9C7F9003 /* ru.lproj */; };
+		4B288BE731E55C7E74EBBE198E10D8AB /* PHImageManager+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AF01FE95A2F0D2456D900C857D528 /* PHImageManager+CTAssetsPickerController.m */; };
+		4C38AAF46619540C9304CBF818E94177 /* CTAssetsGridSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1831525F78C8F8D7D7E66AF015DB992 /* CTAssetsGridSelectedView.m */; };
+		4D8D9F688C1B1DA4563B0B48B2F80087 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3A0D8D65B6AEB5F896D59C07AB4321A4 /* tr.lproj */; };
+		591AE751E963A56FC3AC69AB8C8CC53D /* CTAssetsPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 616048EA6749DA48BABAA1BE79C52EE0 /* CTAssetsPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C7F90E9B7B5C1E4A970D23858AA259C /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0B8DEB858560A2ED4A03ED357108A /* NSLayoutConstraint+PureLayout.m */; };
+		5CA2D7C5B72614627294C631249D1B02 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAD3CD1E48BF5B4CAE5F519A26372A5 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63DE732DEBCD585A25CE9B96A9114E6C /* CTAssetsGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4661CE6EAF95929F57D50606E6ED857E /* CTAssetsGridViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67BA4CE8919F55ECD745F17558048803 /* CTAssetsPickerNoAssetsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 142F1E11473289B2BCDA3C21D2884138 /* CTAssetsPickerNoAssetsView.m */; };
+		67DD73E55858794A1579A2E7C6E7857A /* CTAssetsGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281BDDB5028670BC65C00C4477F6923F /* CTAssetsGridViewController.m */; };
+		6825DCCA938836AF4FFD084E811D186E /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D9841E4A1DBE53B2401F2D6594C05D86 /* ja.lproj */; };
+		6C188BF7C14938676709023A4BC06574 /* CTAssetCheckmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B6465CDD4DBDDD952CF3EEBD5A752 /* CTAssetCheckmark.m */; };
+		6DDECA434B2CE6C66A46A20ECFA394D6 /* Pods-XWCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B5ED53BDFAF4F26AED11C05EA45A0A /* Pods-XWCamera-dummy.m */; };
+		6FBC07E50B811A130BD0754889929B3B /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AA5023E4E88F8050008358132AD559BE /* he.lproj */; };
+		70F8EBD290D4BB1DF5B867792B23D70E /* PHImageManager+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB3ABA3193EBB1AD7643A475D183D6E /* PHImageManager+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		742C386A8C86864416529EAD45863E07 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F86ED4D7E9C2C6A46344D422E46ACE /* NSNumberFormatter+CTAssetsPickerController.m */; };
+		7489135B223406EDC7F5C3153F9EB051 /* CTAssetsPickerAccessDeniedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6E9488258CD5F58A6E9457ACB1A60 /* CTAssetsPickerAccessDeniedView.m */; };
+		7508D2396A9857FB98460D8AEE28C88F /* CTAssetsGridViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C1743AA7BA6A4FC9E219DADDFFB413D2 /* CTAssetsGridViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D85B73C8CC471BAC0E1A848E2BA471A /* CTAssetPlayButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4A016A84B1FE2CC3C1E827AD4BB9E0 /* CTAssetPlayButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84353A83B7DD465C7083C608E7177664 /* PHAsset+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 582C87C56D930A1EF98D857DDA148387 /* PHAsset+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		895C5CD733B7099EE489EBC2F5BDF6DB /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C8D3AD4F6CED433B463D8B92CFA3F9C5 /* pt-PT.lproj */; };
+		89B564FE11F6231E42A96086EF847CAD /* CTAssetsPageViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CBC9264835CA3D58928BF2560DBC0A /* CTAssetsPageViewController+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A89BFAC05D4E20EA188BA7AB8B1C78E /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 896AE31AFF38193C6FC84463F64FC24D /* hu.lproj */; };
+		8C726A16EE9F67046570C858917033F4 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A5AED5E0F104CF26DE731CF599582 /* de.lproj */; };
+		8DC8C0F410FE154E2580B63D5B8AE519 /* CTAssetThumbnailOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = D62B269089A5283B3D1A6AE99D5580CF /* CTAssetThumbnailOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DE43A5ED8CC24C5B0C445564AF1E27E /* NSBundle+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B788978FE60162D680637B754994D /* NSBundle+CTAssetsPickerController.m */; };
+		8F606F22CE0BF3EEAF08F6D1F53A69C6 /* CTAssetsGridSelectedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C389879E64187C39F6F36E98E674CFE /* CTAssetsGridSelectedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91DA00B51A882DC3E9929F4FC5B77E91 /* CTAssetSelectionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5401155456F39F812CBBA8565A60FD0 /* CTAssetSelectionLabel.m */; };
+		921136FB884B676953DFE1DBA8D6446A /* CTAssetCheckmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B94A9F095551943292B9CFBFB0E8FB /* CTAssetCheckmark.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		936B0B354A1BF9291AD7A7A1AD848ABC /* NSDateFormatter+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2DCF6AB62B4EBE80E78F2665F7AECE /* NSDateFormatter+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		944D554048D6270A6244DEEACDB76815 /* CTAssetThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACD5678C0F0A37C5EE957C6C92CEBC /* CTAssetThumbnailView.m */; };
+		99B2A0418DD1D268A80F2D36AF04386A /* CTAssetsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB90F121C2BC086097F4933E9BFDFDC /* CTAssetsNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0F3EBF85A7D72F4A6AE886B2632ADFE /* UICollectionView+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EC5696970E4BFFED5F3EA5AA8A0623 /* UICollectionView+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A879B1BFC868A65FAFAD99DC9F39AD82 /* NSDateFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F13B858F3728D5EDE929B3E508F0FB /* NSDateFormatter+CTAssetsPickerController.m */; };
+		A9C820D009C80D1195D160A1BB67AE01 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4A05EA8737A64535BCBA2D789D4FB4 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC70DF5425CDAE39337891DD3457F547 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 435761313DF330B1099CA81198F25282 /* pt.lproj */; };
+		B1AC65E44287DB93A2531F5BD3EF0DE1 /* CTAssetsPickerController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C514E3CB45C6F3EF87A87B5F59E4970 /* CTAssetsPickerController+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B94A9A1400E10CD54FA869E1F670B26C /* hi-IN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CBBC852A422E1C28B519A77D3592A907 /* hi-IN.lproj */; };
+		BD8DE690FC9BB56A6D7B7408F07F3B11 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 71985B686699AB0809C9F4822DB9509A /* en.lproj */; };
+		C34E60AF2D8DDF1855970E978A9E3F96 /* CTAssetThumbnailOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 72727D75C0ED0FD52B3146B1C23DFA24 /* CTAssetThumbnailOverlay.m */; };
+		C3FACDC28479A7C072E00314C727716D /* CTAssetCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4622408B3BDC57E1DEFFACF4F9D714 /* CTAssetCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C57343FDC1DE8AD7129A86920733FEA5 /* CTAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38524A9F98B9C64977A71EA93242696D /* CTAssetsPickerController-dummy.m */; };
+		C79DAC63FF2A4C69CBF73A075CD731E2 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD27D8DD3D6424FB01C2625AB13E5 /* zh-Hant.lproj */; };
+		C7BECB38898697CCE5CA5B27AFCB228B /* CTAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C54D7CBE28C2B67DF791FA4E0F290E /* CTAssetCollectionViewCell.m */; };
+		CD44390CCEE7EAC297FB25C84D733835 /* CTAssetsPickerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 55494A179F4FBD626AEC89B50005E0AB /* CTAssetsPickerDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF98B6BF6A7E7240DD08868D4E94C1BC /* CTAssetsGridViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E47D8B6DC594A2905F5FD8C81E608 /* CTAssetsGridViewLayout.m */; };
+		D21A68E6D588C53DA11E6EDC49AAD536 /* NSBundle+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = D417DF8D27428D6DCFB982B3E8B32128 /* NSBundle+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D30A1C8F82EE0EC024BD1363AA22BDBE /* CTAssetThumbnailStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6A59C781CD2382F02EBF092B93B1B /* CTAssetThumbnailStacks.m */; };
+		D4526D9295864BF54984140504DD7414 /* CTAssetsGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A81E8B34A11E8705BB65AEE93157DB85 /* CTAssetsGridViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7A2F126122996A245E62E9DFAE71DB7 /* nl-NL.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 641D8D93AD2C75CA62607523A183F33E /* nl-NL.lproj */; };
+		D858FDF4BAFA901DA59DEDA8538BC1D3 /* CTAssetThumbnailStacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F58E81FD589CA5CB97F03BA27D02B0D /* CTAssetThumbnailStacks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA50E747CD03B264C88BBEDA08B7414F /* CTAssetPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD44DEDCAB7E5B2AD32536CBE504CB3 /* CTAssetPlayButton.m */; };
+		DAA61809EAE31711384A68234844FD7E /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EEC95B6B483DDD9D7174D3C7F263248D /* es.lproj */; };
+		DEE2FD12933184874D35E09A911355D1 /* CTAssetsGridViewFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 983213C23073E264863E087F2483165C /* CTAssetsGridViewFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEE6FBD77FCBEF6ECF5D507D25D002EB /* CTAssetsPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A0E09FEA3F2414FBA0454EDAD26CC4 /* CTAssetsPageView.m */; };
+		E0BE8E02A11F9E6CEA2A996CEC3DEC0C /* NSNumberFormatter+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 043E85D6007678BF888C836D8127B9AB /* NSNumberFormatter+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E66A7814FE09128AFC20701EB7C5E8D5 /* CTAssetItemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0638380C04F95BB4EF34D3FF45025C10 /* CTAssetItemViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E84E3BE9A7D3AE7B27EC40BC37C3430C /* NSIndexSet+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B2E2C226DEBA112DC33CFD6187E6C /* NSIndexSet+CTAssetsPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E97A4646833746FE57AF7A6D746E497A /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0644DD9DEA084E721BFFB8E2292D8086 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC4D6BDC056C9B0893F333FEB4DD4703 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E387A6D325A981EA17BDBE7CA6644 /* nl.lproj */; };
+		EDE258C815A6EEDA82F1AB666E98AC24 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3427A243E2B9D207B8A59E12FF55E /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF595EBD31BB45BE018349D9AE525B8D /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BA0D1E7E7D84FAE3A8ED4A2EDBE97180 /* id.lproj */; };
+		F2757F0AB1C4A23C4FB4F7F9366B52EE /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF25A772CC8900DDD4E86B9740647871 /* NSArray+PureLayout.m */; };
+		F49452D969BD92447F4537A097422E01 /* CTAssetSelectionLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DD8B03C2E66B99B97FD29AAA645527 /* CTAssetSelectionLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7179AF09F32F49007D806812D053963 /* CTAssetScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 031A81C23B54ECBB62567A6137730854 /* CTAssetScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F91955690B7CE31379289DF99C2D3759 /* CTAssetsViewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B34698E4A4A98501AE010111E4179EAD /* CTAssetsViewControllerTransition.m */; };
+		F97B8A779DFD46C8AB2CDB73C32F70F8 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 967F754FCF1FE46B44D77F41F008A7CE /* it.lproj */; };
+		F9A082B6AED50680250F8C5C96CD2EF3 /* CTAssetsPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D3B468CB2D75F451C1C8B08E30B666 /* CTAssetsPageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB981316A1CE01B24AC74853CA5DDDBB /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4DBE2CE0DC38A6D5615A424993806D32 /* ko.lproj */; };
+		FF5535E9E8F50CDCFF64270ACD0C3D1C /* UIImage+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39B9180692EA1F03C58B6A64A802A8D /* UIImage+CTAssetsPickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004E18EA7D4FDF162B3C265C2D409F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		026DCF0C26A9828CC049F154BD3109FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		61550346F067FA41F7A17E171FF3DDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6E640853A7668A05274B5AA4E3913F;
+			remoteInfo = CTAssetsPickerController;
+		};
+		8946BE5BA8EDF2EDDBAF516EDC07A614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11866BACEE51A96C54C95E9E19B17DC;
+			remoteInfo = "CTAssetsPickerController-CTAssetsPickerController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011ADDD52EF749F7BB976E4AC53052EF /* CTAssetsPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsPageViewController.m; path = CTAssetsPickerController/CTAssetsPageViewController.m; sourceTree = "<group>"; };
+		031A81C23B54ECBB62567A6137730854 /* CTAssetScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetScrollView.h; path = CTAssetsPickerController/CTAssetScrollView.h; sourceTree = "<group>"; };
+		043E85D6007678BF888C836D8127B9AB /* NSNumberFormatter+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		0638380C04F95BB4EF34D3FF45025C10 /* CTAssetItemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetItemViewController.h; path = CTAssetsPickerController/CTAssetItemViewController.h; sourceTree = "<group>"; };
+		0644DD9DEA084E721BFFB8E2292D8086 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		0BAD3CD1E48BF5B4CAE5F519A26372A5 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		1059EF4D24B2C2F5B5ACFF7F9FF8C559 /* CTAssetCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetCollectionViewController.h; path = CTAssetsPickerController/CTAssetCollectionViewController.h; sourceTree = "<group>"; };
+		10B1AA906FC8111C8C45D4DDFF71C826 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		142F1E11473289B2BCDA3C21D2884138 /* CTAssetsPickerNoAssetsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsPickerNoAssetsView.m; path = CTAssetsPickerController/CTAssetsPickerNoAssetsView.m; sourceTree = "<group>"; };
+		17EE597876C83D275DB6667F682AD2B4 /* CTAssetScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetScrollView.m; path = CTAssetsPickerController/CTAssetScrollView.m; sourceTree = "<group>"; };
+		19E626A169747CC1779E1F40BF873F3B /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = CTAssetsPickerController/Resources/da.lproj; sourceTree = "<group>"; };
+		1BB90F121C2BC086097F4933E9BFDFDC /* CTAssetsNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsNavigationController.h; path = CTAssetsPickerController/CTAssetsNavigationController.h; sourceTree = "<group>"; };
+		1C4331853ED041811DCE0BE74B54DE43 /* CTAssetCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetCollectionViewController.m; path = CTAssetsPickerController/CTAssetCollectionViewController.m; sourceTree = "<group>"; };
+		1D01D92E9B59D153E75731BA333099AD /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		1D1221C27292974CC7299103B10CC2AC /* CTAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
+		1D4622408B3BDC57E1DEFFACF4F9D714 /* CTAssetCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetCollectionViewCell.h; path = CTAssetsPickerController/CTAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		20B94A9F095551943292B9CFBFB0E8FB /* CTAssetCheckmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetCheckmark.h; path = CTAssetsPickerController/CTAssetCheckmark.h; sourceTree = "<group>"; };
+		24367F754F91301B1953C72D9C7F9003 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = CTAssetsPickerController/Resources/ru.lproj; sourceTree = "<group>"; };
+		24F86ED4D7E9C2C6A46344D422E46ACE /* NSNumberFormatter+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		26125EF4DA01462336C6B6F511850461 /* CTAssetItemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetItemViewController.m; path = CTAssetsPickerController/CTAssetItemViewController.m; sourceTree = "<group>"; };
+		281BDDB5028670BC65C00C4477F6923F /* CTAssetsGridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsGridViewController.m; path = CTAssetsPickerController/CTAssetsGridViewController.m; sourceTree = "<group>"; };
+		28E3427A243E2B9D207B8A59E12FF55E /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		2C514E3CB45C6F3EF87A87B5F59E4970 /* CTAssetsPickerController+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPickerController+Internal.h"; sourceTree = "<group>"; };
+		2DEFC28F8CEAF5132E317E92A45EA989 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = CTAssetsPickerController/Resources/fr.lproj; sourceTree = "<group>"; };
+		369B4E23CA0093CE6D4EFAF5F10C06EC /* PHAsset+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		38524A9F98B9C64977A71EA93242696D /* CTAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
+		3867E169D7027807A019467CD143E43B /* CTAssetSelectionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetSelectionButton.m; path = CTAssetsPickerController/CTAssetSelectionButton.m; sourceTree = "<group>"; };
+		39B534C34E4DA769E739354CC425020D /* CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsPickerController.m; path = CTAssetsPickerController/CTAssetsPickerController.m; sourceTree = "<group>"; };
+		39EEB3E2509508BBE7F4956018787742 /* CTAssetsPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTAssetsPickerController.xcconfig; sourceTree = "<group>"; };
+		3A0D8D65B6AEB5F896D59C07AB4321A4 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = CTAssetsPickerController/Resources/tr.lproj; sourceTree = "<group>"; };
+		3CA95F6C5FCC4C8DFBF7E641446683B0 /* ResourceBundle-CTAssetsPickerController-CTAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CTAssetsPickerController-CTAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
+		3D374302E0CB9F921B8370AA0B503A29 /* CTAssetsViewControllerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsViewControllerTransition.h; path = CTAssetsPickerController/CTAssetsViewControllerTransition.h; sourceTree = "<group>"; };
+		435761313DF330B1099CA81198F25282 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = CTAssetsPickerController/Resources/pt.lproj; sourceTree = "<group>"; };
+		4661CE6EAF95929F57D50606E6ED857E /* CTAssetsGridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsGridViewController.h; path = CTAssetsPickerController/CTAssetsGridViewController.h; sourceTree = "<group>"; };
+		476DF87A89C4ADF764BAF043A9BE06EF /* CTAssetThumbnailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetThumbnailView.h; path = CTAssetsPickerController/CTAssetThumbnailView.h; sourceTree = "<group>"; };
+		47DC5443B441C023C85FDE532613F29B /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		4BACD5678C0F0A37C5EE957C6C92CEBC /* CTAssetThumbnailView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetThumbnailView.m; path = CTAssetsPickerController/CTAssetThumbnailView.m; sourceTree = "<group>"; };
+		4DBE2CE0DC38A6D5615A424993806D32 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = CTAssetsPickerController/Resources/ko.lproj; sourceTree = "<group>"; };
+		4DF0B8DEB858560A2ED4A03ED357108A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		4FD048C223F7A0B2444F351167991312 /* CTAssetsPickerNoAssetsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsPickerNoAssetsView.h; path = CTAssetsPickerController/CTAssetsPickerNoAssetsView.h; sourceTree = "<group>"; };
+		510EEB36EADAFCDE59A48FC27560BAE8 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "CTAssetsPickerController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		55494A179F4FBD626AEC89B50005E0AB /* CTAssetsPickerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsPickerDefines.h; path = CTAssetsPickerController/CTAssetsPickerDefines.h; sourceTree = "<group>"; };
+		55D6B4C341532460295D7ECBC20308E1 /* UICollectionView+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		582C87C56D930A1EF98D857DDA148387 /* PHAsset+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAsset+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		5B9B6465CDD4DBDDD952CF3EEBD5A752 /* CTAssetCheckmark.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetCheckmark.m; path = CTAssetsPickerController/CTAssetCheckmark.m; sourceTree = "<group>"; };
+		5C389879E64187C39F6F36E98E674CFE /* CTAssetsGridSelectedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsGridSelectedView.h; path = CTAssetsPickerController/CTAssetsGridSelectedView.h; sourceTree = "<group>"; };
+		5CDBB685372E6BAC2A96DBB7B1E9606B /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = CTAssetsPickerController/Resources/ar.lproj; sourceTree = "<group>"; };
+		5F3E47D8B6DC594A2905F5FD8C81E608 /* CTAssetsGridViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsGridViewLayout.m; path = CTAssetsPickerController/CTAssetsGridViewLayout.m; sourceTree = "<group>"; };
+		616048EA6749DA48BABAA1BE79C52EE0 /* CTAssetsPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsPageViewController.h; path = CTAssetsPickerController/CTAssetsPageViewController.h; sourceTree = "<group>"; };
+		62B5ED53BDFAF4F26AED11C05EA45A0A /* Pods-XWCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XWCamera-dummy.m"; sourceTree = "<group>"; };
+		63CBC9264835CA3D58928BF2560DBC0A /* CTAssetsPageViewController+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPageViewController+Internal.h"; sourceTree = "<group>"; };
+		641D8D93AD2C75CA62607523A183F33E /* nl-NL.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "nl-NL.lproj"; path = "CTAssetsPickerController/Resources/nl-NL.lproj"; sourceTree = "<group>"; };
+		64D3B468CB2D75F451C1C8B08E30B666 /* CTAssetsPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsPageView.h; path = CTAssetsPickerController/CTAssetsPageView.h; sourceTree = "<group>"; };
+		6C08E1C95A996865CE9C60714E893EC1 /* libCTAssetsPickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTAssetsPickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5FB4B1DFAE0DCD903E9DB988AF8450 /* CTAssetsNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsNavigationController.m; path = CTAssetsPickerController/CTAssetsNavigationController.m; sourceTree = "<group>"; };
+		71985B686699AB0809C9F4822DB9509A /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = CTAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
+		72727D75C0ED0FD52B3146B1C23DFA24 /* CTAssetThumbnailOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetThumbnailOverlay.m; path = CTAssetsPickerController/CTAssetThumbnailOverlay.m; sourceTree = "<group>"; };
+		753A80CDCB823A5EC941662131F02235 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = CTAssetsPickerController/Resources/fi.lproj; sourceTree = "<group>"; };
+		79B6A59C781CD2382F02EBF092B93B1B /* CTAssetThumbnailStacks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetThumbnailStacks.m; path = CTAssetsPickerController/CTAssetThumbnailStacks.m; sourceTree = "<group>"; };
+		7D5FEB0B0E74563C46B917DBD5AA0A9E /* CTAssetSelectionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetSelectionButton.h; path = CTAssetsPickerController/CTAssetSelectionButton.h; sourceTree = "<group>"; };
+		896AE31AFF38193C6FC84463F64FC24D /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = CTAssetsPickerController/Resources/hu.lproj; sourceTree = "<group>"; };
+		8C2A5AED5E0F104CF26DE731CF599582 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = CTAssetsPickerController/Resources/de.lproj; sourceTree = "<group>"; };
+		8D4A016A84B1FE2CC3C1E827AD4BB9E0 /* CTAssetPlayButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetPlayButton.h; path = CTAssetsPickerController/CTAssetPlayButton.h; sourceTree = "<group>"; };
+		8EF6E9488258CD5F58A6E9457ACB1A60 /* CTAssetsPickerAccessDeniedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsPickerAccessDeniedView.m; path = CTAssetsPickerController/CTAssetsPickerAccessDeniedView.m; sourceTree = "<group>"; };
+		8F58E81FD589CA5CB97F03BA27D02B0D /* CTAssetThumbnailStacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetThumbnailStacks.h; path = CTAssetsPickerController/CTAssetThumbnailStacks.h; sourceTree = "<group>"; };
+		967F754FCF1FE46B44D77F41F008A7CE /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = CTAssetsPickerController/Resources/it.lproj; sourceTree = "<group>"; };
+		983213C23073E264863E087F2483165C /* CTAssetsGridViewFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsGridViewFooter.h; path = CTAssetsPickerController/CTAssetsGridViewFooter.h; sourceTree = "<group>"; };
+		9AD44DEDCAB7E5B2AD32536CBE504CB3 /* CTAssetPlayButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetPlayButton.m; path = CTAssetsPickerController/CTAssetPlayButton.m; sourceTree = "<group>"; };
+		9BB3ABA3193EBB1AD7643A475D183D6E /* PHImageManager+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHImageManager+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		9C3E4544FA645861858723A3F6D26BB1 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		9C9E387A6D325A981EA17BDBE7CA6644 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = CTAssetsPickerController/Resources/nl.lproj; sourceTree = "<group>"; };
+		9D2B788978FE60162D680637B754994D /* NSBundle+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF220825CDAE397B74C29E71C08EE89 /* NSIndexSet+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		9F16412CE16F63315FF2AC4EDB165C76 /* CTAssetsPickerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CTAssetsPickerController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1CF880152B25B843305FC9D2FFFFEF /* CTAssetsGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsGridView.m; path = CTAssetsPickerController/CTAssetsGridView.m; sourceTree = "<group>"; };
+		A0B1BC8840E43FB63F593B862174EFB1 /* CTAssetsGridViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsGridViewCell.m; path = CTAssetsPickerController/CTAssetsGridViewCell.m; sourceTree = "<group>"; };
+		A0C9A918FE0359CD8D77659906AA7195 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = CTAssetsPickerController/Resources/sv.lproj; sourceTree = "<group>"; };
+		A6C54D7CBE28C2B67DF791FA4E0F290E /* CTAssetCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetCollectionViewCell.m; path = CTAssetsPickerController/CTAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		A7CE322D8F37B98264F7979998FDFCE7 /* CTAssetsPickerController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTAssetsPickerController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81E8B34A11E8705BB65AEE93157DB85 /* CTAssetsGridViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsGridViewCell.h; path = CTAssetsPickerController/CTAssetsGridViewCell.h; sourceTree = "<group>"; };
+		A8A91EF1A503847FE486075CEC0583B9 /* UIImage+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		AA5023E4E88F8050008358132AD559BE /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = he.lproj; path = CTAssetsPickerController/Resources/he.lproj; sourceTree = "<group>"; };
+		ABA9EC41AE644669F379071B25CF5D6F /* Pods-XWCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6EC669A53A61E765CB543DEA476D2E /* libPods-XWCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34698E4A4A98501AE010111E4179EAD /* CTAssetsViewControllerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsViewControllerTransition.m; path = CTAssetsPickerController/CTAssetsViewControllerTransition.m; sourceTree = "<group>"; };
+		B5FDD27D8DD3D6424FB01C2625AB13E5 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "CTAssetsPickerController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		B8A0E09FEA3F2414FBA0454EDAD26CC4 /* CTAssetsPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsPageView.m; path = CTAssetsPickerController/CTAssetsPageView.m; sourceTree = "<group>"; };
+		B9DD8B03C2E66B99B97FD29AAA645527 /* CTAssetSelectionLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetSelectionLabel.h; path = CTAssetsPickerController/CTAssetSelectionLabel.h; sourceTree = "<group>"; };
+		BA0D1E7E7D84FAE3A8ED4A2EDBE97180 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = CTAssetsPickerController/Resources/id.lproj; sourceTree = "<group>"; };
+		BC988CAFCB4A3668831440CD46DBE78A /* CTAssetsGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsGridView.h; path = CTAssetsPickerController/CTAssetsGridView.h; sourceTree = "<group>"; };
+		BF25A772CC8900DDD4E86B9740647871 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		C1743AA7BA6A4FC9E219DADDFFB413D2 /* CTAssetsGridViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsGridViewLayout.h; path = CTAssetsPickerController/CTAssetsGridViewLayout.h; sourceTree = "<group>"; };
+		C1831525F78C8F8D7D7E66AF015DB992 /* CTAssetsGridSelectedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsGridSelectedView.m; path = CTAssetsPickerController/CTAssetsGridSelectedView.m; sourceTree = "<group>"; };
+		C5401155456F39F812CBBA8565A60FD0 /* CTAssetSelectionLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetSelectionLabel.m; path = CTAssetsPickerController/CTAssetSelectionLabel.m; sourceTree = "<group>"; };
+		C6A3C2EB7DA364ADEF8175B9BF3880C3 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		C8D3AD4F6CED433B463D8B92CFA3F9C5 /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-PT.lproj"; path = "CTAssetsPickerController/Resources/pt-PT.lproj"; sourceTree = "<group>"; };
+		C8EC5696970E4BFFED5F3EA5AA8A0623 /* UICollectionView+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		C97AF01FE95A2F0D2456D900C857D528 /* PHImageManager+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHImageManager+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		CA380D1BB3ECDD2B901256FD8E2FCD08 /* PHAssetCollection+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		CBBC852A422E1C28B519A77D3592A907 /* hi-IN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "hi-IN.lproj"; path = "CTAssetsPickerController/Resources/hi-IN.lproj"; sourceTree = "<group>"; };
+		D2D31951B34D6CFD2566AFACE088E350 /* PHAssetCollection+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		D39B9180692EA1F03C58B6A64A802A8D /* UIImage+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		D417DF8D27428D6DCFB982B3E8B32128 /* NSBundle+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		D62B269089A5283B3D1A6AE99D5580CF /* CTAssetThumbnailOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetThumbnailOverlay.h; path = CTAssetsPickerController/CTAssetThumbnailOverlay.h; sourceTree = "<group>"; };
+		D71FB2B6E3E78D1D9DC0CAC271D96F6C /* Pods-XWCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWCamera.release.xcconfig"; sourceTree = "<group>"; };
+		D89C54AEF173D494B09E6A0A3A0C7F85 /* es-MX.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "es-MX.lproj"; path = "CTAssetsPickerController/Resources/es-MX.lproj"; sourceTree = "<group>"; };
+		D9841E4A1DBE53B2401F2D6594C05D86 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = CTAssetsPickerController/Resources/ja.lproj; sourceTree = "<group>"; };
+		DA4A05EA8737A64535BCBA2D789D4FB4 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		DB83F49C6CBB1F4C3436D6231C400B68 /* Pods-XWCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE2DCF6AB62B4EBE80E78F2665F7AECE /* NSDateFormatter+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		DF3B0931B651E586747DC82DE6EC50C8 /* CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsPickerController.h; path = CTAssetsPickerController/CTAssetsPickerController.h; sourceTree = "<group>"; };
+		E45644C417B7BC6112E6C951B32D9953 /* CTAssetsGridViewFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTAssetsGridViewFooter.m; path = CTAssetsPickerController/CTAssetsGridViewFooter.m; sourceTree = "<group>"; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51B2E2C226DEBA112DC33CFD6187E6C /* NSIndexSet+CTAssetsPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		E8F13B858F3728D5EDE929B3E508F0FB /* NSDateFormatter+CTAssetsPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		EEC95B6B483DDD9D7174D3C7F263248D /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = CTAssetsPickerController/Resources/es.lproj; sourceTree = "<group>"; };
+		EFE6FCA2769A520385B975FD4DDC09BB /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		F78D745E375DEAAC68255FEEE443B7AA /* CTAssetsPickerAccessDeniedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAssetsPickerAccessDeniedView.h; path = CTAssetsPickerController/CTAssetsPickerAccessDeniedView.h; sourceTree = "<group>"; };
+		FB9B3095D0CB36F22FB103012657D1F8 /* Pods-XWCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XWCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD4483AC042467701AD6FDF6FE8E1A16 /* Pods-XWCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWCamera-resources.sh"; sourceTree = "<group>"; };
+		FFD097290151571DA150DB41C0291F07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ED9FBFAB0F84846F3D2F4220DE732CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DD36B099B2D71AE5EDB530A8A29E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF525033B6CA854550B7400C1122E9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA70FB2840C49C1833A3352D1CF76208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A2C822144CEC05EB5AD23AE0036229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61381D4C6B8E6CA2C06836F05D38DAA1 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EE7B308B719F0C686ACE90471A9650E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CDBB685372E6BAC2A96DBB7B1E9606B /* ar.lproj */,
+				19E626A169747CC1779E1F40BF873F3B /* da.lproj */,
+				8C2A5AED5E0F104CF26DE731CF599582 /* de.lproj */,
+				71985B686699AB0809C9F4822DB9509A /* en.lproj */,
+				EEC95B6B483DDD9D7174D3C7F263248D /* es.lproj */,
+				D89C54AEF173D494B09E6A0A3A0C7F85 /* es-MX.lproj */,
+				753A80CDCB823A5EC941662131F02235 /* fi.lproj */,
+				2DEFC28F8CEAF5132E317E92A45EA989 /* fr.lproj */,
+				AA5023E4E88F8050008358132AD559BE /* he.lproj */,
+				CBBC852A422E1C28B519A77D3592A907 /* hi-IN.lproj */,
+				896AE31AFF38193C6FC84463F64FC24D /* hu.lproj */,
+				BA0D1E7E7D84FAE3A8ED4A2EDBE97180 /* id.lproj */,
+				967F754FCF1FE46B44D77F41F008A7CE /* it.lproj */,
+				D9841E4A1DBE53B2401F2D6594C05D86 /* ja.lproj */,
+				4DBE2CE0DC38A6D5615A424993806D32 /* ko.lproj */,
+				9C9E387A6D325A981EA17BDBE7CA6644 /* nl.lproj */,
+				641D8D93AD2C75CA62607523A183F33E /* nl-NL.lproj */,
+				435761313DF330B1099CA81198F25282 /* pt.lproj */,
+				C8D3AD4F6CED433B463D8B92CFA3F9C5 /* pt-PT.lproj */,
+				24367F754F91301B1953C72D9C7F9003 /* ru.lproj */,
+				A0C9A918FE0359CD8D77659906AA7195 /* sv.lproj */,
+				3A0D8D65B6AEB5F896D59C07AB4321A4 /* tr.lproj */,
+				510EEB36EADAFCDE59A48FC27560BAE8 /* zh-Hans.lproj */,
+				B5FDD27D8DD3D6424FB01C2625AB13E5 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		547AE49581D5768FADF4870CB1617963 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9F16412CE16F63315FF2AC4EDB165C76 /* CTAssetsPickerController.podspec */,
+				FFD097290151571DA150DB41C0291F07 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		61381D4C6B8E6CA2C06836F05D38DAA1 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A05EA8737A64535BCBA2D789D4FB4 /* ALView+PureLayout.h */,
+				10B1AA906FC8111C8C45D4DDFF71C826 /* ALView+PureLayout.m */,
+				0BAD3CD1E48BF5B4CAE5F519A26372A5 /* NSArray+PureLayout.h */,
+				BF25A772CC8900DDD4E86B9740647871 /* NSArray+PureLayout.m */,
+				0644DD9DEA084E721BFFB8E2292D8086 /* NSLayoutConstraint+PureLayout.h */,
+				4DF0B8DEB858560A2ED4A03ED357108A /* NSLayoutConstraint+PureLayout.m */,
+				EFE6FCA2769A520385B975FD4DDC09BB /* PureLayout.h */,
+				47DC5443B441C023C85FDE532613F29B /* PureLayout+Internal.h */,
+				28E3427A243E2B9D207B8A59E12FF55E /* PureLayoutDefines.h */,
+				A110BB902E22DE736C52DF3A3678498E /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		7981FF99643B9111279FBD7A9C404039 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				63CBC9264835CA3D58928BF2560DBC0A /* CTAssetsPageViewController+Internal.h */,
+				2C514E3CB45C6F3EF87A87B5F59E4970 /* CTAssetsPickerController+Internal.h */,
+				D417DF8D27428D6DCFB982B3E8B32128 /* NSBundle+CTAssetsPickerController.h */,
+				9D2B788978FE60162D680637B754994D /* NSBundle+CTAssetsPickerController.m */,
+				DE2DCF6AB62B4EBE80E78F2665F7AECE /* NSDateFormatter+CTAssetsPickerController.h */,
+				E8F13B858F3728D5EDE929B3E508F0FB /* NSDateFormatter+CTAssetsPickerController.m */,
+				E51B2E2C226DEBA112DC33CFD6187E6C /* NSIndexSet+CTAssetsPickerController.h */,
+				9DF220825CDAE397B74C29E71C08EE89 /* NSIndexSet+CTAssetsPickerController.m */,
+				043E85D6007678BF888C836D8127B9AB /* NSNumberFormatter+CTAssetsPickerController.h */,
+				24F86ED4D7E9C2C6A46344D422E46ACE /* NSNumberFormatter+CTAssetsPickerController.m */,
+				582C87C56D930A1EF98D857DDA148387 /* PHAsset+CTAssetsPickerController.h */,
+				369B4E23CA0093CE6D4EFAF5F10C06EC /* PHAsset+CTAssetsPickerController.m */,
+				D2D31951B34D6CFD2566AFACE088E350 /* PHAssetCollection+CTAssetsPickerController.h */,
+				CA380D1BB3ECDD2B901256FD8E2FCD08 /* PHAssetCollection+CTAssetsPickerController.m */,
+				9BB3ABA3193EBB1AD7643A475D183D6E /* PHImageManager+CTAssetsPickerController.h */,
+				C97AF01FE95A2F0D2456D900C857D528 /* PHImageManager+CTAssetsPickerController.m */,
+				C8EC5696970E4BFFED5F3EA5AA8A0623 /* UICollectionView+CTAssetsPickerController.h */,
+				55D6B4C341532460295D7ECBC20308E1 /* UICollectionView+CTAssetsPickerController.m */,
+				A8A91EF1A503847FE486075CEC0583B9 /* UIImage+CTAssetsPickerController.h */,
+				D39B9180692EA1F03C58B6A64A802A8D /* UIImage+CTAssetsPickerController.m */,
+			);
+			name = Categories;
+			path = CTAssetsPickerController/Categories;
+			sourceTree = "<group>";
+		};
+		8C58682767E8E50650738F41AF9A0511 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39EEB3E2509508BBE7F4956018787742 /* CTAssetsPickerController.xcconfig */,
+				38524A9F98B9C64977A71EA93242696D /* CTAssetsPickerController-dummy.m */,
+				1D1221C27292974CC7299103B10CC2AC /* CTAssetsPickerController-prefix.pch */,
+				3CA95F6C5FCC4C8DFBF7E641446683B0 /* ResourceBundle-CTAssetsPickerController-CTAssetsPickerController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CTAssetsPickerController";
+			sourceTree = "<group>";
+		};
+		9FF95E594590872341EDED03F383DD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE322D8F37B98264F7979998FDFCE7 /* CTAssetsPickerController.bundle */,
+				6C08E1C95A996865CE9C60714E893EC1 /* libCTAssetsPickerController.a */,
+				AF6EC669A53A61E765CB543DEA476D2E /* libPods-XWCamera.a */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* libPureLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0964DA320C794E425687D69FC3FB32B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C57908D634B7358A9A42C357F37FCD7F /* CTAssetsPickerController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A110BB902E22DE736C52DF3A3678498E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D01D92E9B59D153E75731BA333099AD /* PureLayout.xcconfig */,
+				9C3E4544FA645861858723A3F6D26BB1 /* PureLayout-dummy.m */,
+				C6A3C2EB7DA364ADEF8175B9BF3880C3 /* PureLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		B121F5EC635C2CF7133C7D6187E7AA6C /* Pods-XWCamera */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B3095D0CB36F22FB103012657D1F8 /* Pods-XWCamera-acknowledgements.markdown */,
+				DB83F49C6CBB1F4C3436D6231C400B68 /* Pods-XWCamera-acknowledgements.plist */,
+				62B5ED53BDFAF4F26AED11C05EA45A0A /* Pods-XWCamera-dummy.m */,
+				FD4483AC042467701AD6FDF6FE8E1A16 /* Pods-XWCamera-resources.sh */,
+				ABA9EC41AE644669F379071B25CF5D6F /* Pods-XWCamera.debug.xcconfig */,
+				D71FB2B6E3E78D1D9DC0CAC271D96F6C /* Pods-XWCamera.release.xcconfig */,
+			);
+			name = "Pods-XWCamera";
+			path = "Target Support Files/Pods-XWCamera";
+			sourceTree = "<group>";
+		};
+		C57908D634B7358A9A42C357F37FCD7F /* CTAssetsPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				20B94A9F095551943292B9CFBFB0E8FB /* CTAssetCheckmark.h */,
+				5B9B6465CDD4DBDDD952CF3EEBD5A752 /* CTAssetCheckmark.m */,
+				1D4622408B3BDC57E1DEFFACF4F9D714 /* CTAssetCollectionViewCell.h */,
+				A6C54D7CBE28C2B67DF791FA4E0F290E /* CTAssetCollectionViewCell.m */,
+				1059EF4D24B2C2F5B5ACFF7F9FF8C559 /* CTAssetCollectionViewController.h */,
+				1C4331853ED041811DCE0BE74B54DE43 /* CTAssetCollectionViewController.m */,
+				0638380C04F95BB4EF34D3FF45025C10 /* CTAssetItemViewController.h */,
+				26125EF4DA01462336C6B6F511850461 /* CTAssetItemViewController.m */,
+				8D4A016A84B1FE2CC3C1E827AD4BB9E0 /* CTAssetPlayButton.h */,
+				9AD44DEDCAB7E5B2AD32536CBE504CB3 /* CTAssetPlayButton.m */,
+				031A81C23B54ECBB62567A6137730854 /* CTAssetScrollView.h */,
+				17EE597876C83D275DB6667F682AD2B4 /* CTAssetScrollView.m */,
+				7D5FEB0B0E74563C46B917DBD5AA0A9E /* CTAssetSelectionButton.h */,
+				3867E169D7027807A019467CD143E43B /* CTAssetSelectionButton.m */,
+				B9DD8B03C2E66B99B97FD29AAA645527 /* CTAssetSelectionLabel.h */,
+				C5401155456F39F812CBBA8565A60FD0 /* CTAssetSelectionLabel.m */,
+				5C389879E64187C39F6F36E98E674CFE /* CTAssetsGridSelectedView.h */,
+				C1831525F78C8F8D7D7E66AF015DB992 /* CTAssetsGridSelectedView.m */,
+				BC988CAFCB4A3668831440CD46DBE78A /* CTAssetsGridView.h */,
+				9F1CF880152B25B843305FC9D2FFFFEF /* CTAssetsGridView.m */,
+				A81E8B34A11E8705BB65AEE93157DB85 /* CTAssetsGridViewCell.h */,
+				A0B1BC8840E43FB63F593B862174EFB1 /* CTAssetsGridViewCell.m */,
+				4661CE6EAF95929F57D50606E6ED857E /* CTAssetsGridViewController.h */,
+				281BDDB5028670BC65C00C4477F6923F /* CTAssetsGridViewController.m */,
+				983213C23073E264863E087F2483165C /* CTAssetsGridViewFooter.h */,
+				E45644C417B7BC6112E6C951B32D9953 /* CTAssetsGridViewFooter.m */,
+				C1743AA7BA6A4FC9E219DADDFFB413D2 /* CTAssetsGridViewLayout.h */,
+				5F3E47D8B6DC594A2905F5FD8C81E608 /* CTAssetsGridViewLayout.m */,
+				1BB90F121C2BC086097F4933E9BFDFDC /* CTAssetsNavigationController.h */,
+				6C5FB4B1DFAE0DCD903E9DB988AF8450 /* CTAssetsNavigationController.m */,
+				64D3B468CB2D75F451C1C8B08E30B666 /* CTAssetsPageView.h */,
+				B8A0E09FEA3F2414FBA0454EDAD26CC4 /* CTAssetsPageView.m */,
+				616048EA6749DA48BABAA1BE79C52EE0 /* CTAssetsPageViewController.h */,
+				011ADDD52EF749F7BB976E4AC53052EF /* CTAssetsPageViewController.m */,
+				F78D745E375DEAAC68255FEEE443B7AA /* CTAssetsPickerAccessDeniedView.h */,
+				8EF6E9488258CD5F58A6E9457ACB1A60 /* CTAssetsPickerAccessDeniedView.m */,
+				DF3B0931B651E586747DC82DE6EC50C8 /* CTAssetsPickerController.h */,
+				39B534C34E4DA769E739354CC425020D /* CTAssetsPickerController.m */,
+				55494A179F4FBD626AEC89B50005E0AB /* CTAssetsPickerDefines.h */,
+				4FD048C223F7A0B2444F351167991312 /* CTAssetsPickerNoAssetsView.h */,
+				142F1E11473289B2BCDA3C21D2884138 /* CTAssetsPickerNoAssetsView.m */,
+				3D374302E0CB9F921B8370AA0B503A29 /* CTAssetsViewControllerTransition.h */,
+				B34698E4A4A98501AE010111E4179EAD /* CTAssetsViewControllerTransition.m */,
+				D62B269089A5283B3D1A6AE99D5580CF /* CTAssetThumbnailOverlay.h */,
+				72727D75C0ED0FD52B3146B1C23DFA24 /* CTAssetThumbnailOverlay.m */,
+				8F58E81FD589CA5CB97F03BA27D02B0D /* CTAssetThumbnailStacks.h */,
+				79B6A59C781CD2382F02EBF092B93B1B /* CTAssetThumbnailStacks.m */,
+				476DF87A89C4ADF764BAF043A9BE06EF /* CTAssetThumbnailView.h */,
+				4BACD5678C0F0A37C5EE957C6C92CEBC /* CTAssetThumbnailView.m */,
+				7981FF99643B9111279FBD7A9C404039 /* Categories */,
+				547AE49581D5768FADF4870CB1617963 /* Pod */,
+				2EE7B308B719F0C686ACE90471A9650E /* Resources */,
+				8C58682767E8E50650738F41AF9A0511 /* Support Files */,
+			);
+			name = CTAssetsPickerController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A0964DA320C794E425687D69FC3FB32B /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				04A2C822144CEC05EB5AD23AE0036229 /* Pods */,
+				9FF95E594590872341EDED03F383DD1A /* Products */,
+				D459073F8C6AE26819BED43F44F89DF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D459073F8C6AE26819BED43F44F89DF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B121F5EC635C2CF7133C7D6187E7AA6C /* Pods-XWCamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B7FCC9FB2B2A751C6A7E35383054B62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921136FB884B676953DFE1DBA8D6446A /* CTAssetCheckmark.h in Headers */,
+				C3FACDC28479A7C072E00314C727716D /* CTAssetCollectionViewCell.h in Headers */,
+				1BCFBF9613C8E6A0972F9F76415FB65D /* CTAssetCollectionViewController.h in Headers */,
+				E66A7814FE09128AFC20701EB7C5E8D5 /* CTAssetItemViewController.h in Headers */,
+				7D85B73C8CC471BAC0E1A848E2BA471A /* CTAssetPlayButton.h in Headers */,
+				F7179AF09F32F49007D806812D053963 /* CTAssetScrollView.h in Headers */,
+				36E24C032927119772E25F53599F20DC /* CTAssetSelectionButton.h in Headers */,
+				F49452D969BD92447F4537A097422E01 /* CTAssetSelectionLabel.h in Headers */,
+				8F606F22CE0BF3EEAF08F6D1F53A69C6 /* CTAssetsGridSelectedView.h in Headers */,
+				1149E5A050E26F6A8D9105F92684140D /* CTAssetsGridView.h in Headers */,
+				D4526D9295864BF54984140504DD7414 /* CTAssetsGridViewCell.h in Headers */,
+				63DE732DEBCD585A25CE9B96A9114E6C /* CTAssetsGridViewController.h in Headers */,
+				DEE2FD12933184874D35E09A911355D1 /* CTAssetsGridViewFooter.h in Headers */,
+				7508D2396A9857FB98460D8AEE28C88F /* CTAssetsGridViewLayout.h in Headers */,
+				99B2A0418DD1D268A80F2D36AF04386A /* CTAssetsNavigationController.h in Headers */,
+				F9A082B6AED50680250F8C5C96CD2EF3 /* CTAssetsPageView.h in Headers */,
+				89B564FE11F6231E42A96086EF847CAD /* CTAssetsPageViewController+Internal.h in Headers */,
+				591AE751E963A56FC3AC69AB8C8CC53D /* CTAssetsPageViewController.h in Headers */,
+				3231FB50035A4156500C2EB2AA312BFF /* CTAssetsPickerAccessDeniedView.h in Headers */,
+				B1AC65E44287DB93A2531F5BD3EF0DE1 /* CTAssetsPickerController+Internal.h in Headers */,
+				0FFB600A47C694B31383A73455C29143 /* CTAssetsPickerController.h in Headers */,
+				CD44390CCEE7EAC297FB25C84D733835 /* CTAssetsPickerDefines.h in Headers */,
+				0067D7A0D39CE3AF6E39B8D190EB9843 /* CTAssetsPickerNoAssetsView.h in Headers */,
+				3409A627A8F0CA68F130AAD60F7E9A2D /* CTAssetsViewControllerTransition.h in Headers */,
+				8DC8C0F410FE154E2580B63D5B8AE519 /* CTAssetThumbnailOverlay.h in Headers */,
+				D858FDF4BAFA901DA59DEDA8538BC1D3 /* CTAssetThumbnailStacks.h in Headers */,
+				421587DD5B338E854FCCAC4BDC1E3CEF /* CTAssetThumbnailView.h in Headers */,
+				D21A68E6D588C53DA11E6EDC49AAD536 /* NSBundle+CTAssetsPickerController.h in Headers */,
+				936B0B354A1BF9291AD7A7A1AD848ABC /* NSDateFormatter+CTAssetsPickerController.h in Headers */,
+				E84E3BE9A7D3AE7B27EC40BC37C3430C /* NSIndexSet+CTAssetsPickerController.h in Headers */,
+				E0BE8E02A11F9E6CEA2A996CEC3DEC0C /* NSNumberFormatter+CTAssetsPickerController.h in Headers */,
+				84353A83B7DD465C7083C608E7177664 /* PHAsset+CTAssetsPickerController.h in Headers */,
+				18DA64FA48BEB40A87D9C9D8086FCAB5 /* PHAssetCollection+CTAssetsPickerController.h in Headers */,
+				70F8EBD290D4BB1DF5B867792B23D70E /* PHImageManager+CTAssetsPickerController.h in Headers */,
+				A0F3EBF85A7D72F4A6AE886B2632ADFE /* UICollectionView+CTAssetsPickerController.h in Headers */,
+				486A9D363657F939A610A30A0EDFEE4A /* UIImage+CTAssetsPickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5495D8ACC645AFB24214FE6A061F58C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6534B7E54928010E4EE2DBB9F0FA07F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C820D009C80D1195D160A1BB67AE01 /* ALView+PureLayout.h in Headers */,
+				5CA2D7C5B72614627294C631249D1B02 /* NSArray+PureLayout.h in Headers */,
+				E97A4646833746FE57AF7A6D746E497A /* NSLayoutConstraint+PureLayout.h in Headers */,
+				248AF2BDA60904B0FFE9818C7F201A08 /* PureLayout+Internal.h in Headers */,
+				2E0B41FBCDC436399F1965EE10BAFA4A /* PureLayout.h in Headers */,
+				EDE258C815A6EEDA82F1AB666E98AC24 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06F5CDD6235E25837519792853B145A1 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EAEA2205F580D230990DC85B177567 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				6534B7E54928010E4EE2DBB9F0FA07F7 /* Headers */,
+				13C82CE372180B3E408559AEC4C23386 /* Sources */,
+				98DD36B099B2D71AE5EDB530A8A29E59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* libPureLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B11866BACEE51A96C54C95E9E19B17DC /* CTAssetsPickerController-CTAssetsPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99A655B4A87211C7B148ED0D9B2B8C /* Build configuration list for PBXNativeTarget "CTAssetsPickerController-CTAssetsPickerController" */;
+			buildPhases = (
+				7391FE4B3314BF9B2C7AA4CFED9BFB76 /* Sources */,
+				7ED9FBFAB0F84846F3D2F4220DE732CF /* Frameworks */,
+				EA7DE1A68BEE843C7421A6B7489F6AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTAssetsPickerController-CTAssetsPickerController";
+			productName = "CTAssetsPickerController-CTAssetsPickerController";
+			productReference = A7CE322D8F37B98264F7979998FDFCE7 /* CTAssetsPickerController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B882E53EBD15BC078EA147D1C8FC7D3A /* Pods-XWCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BCA055364B9FD2D4A9254E58AA7DD4 /* Build configuration list for PBXNativeTarget "Pods-XWCamera" */;
+			buildPhases = (
+				5495D8ACC645AFB24214FE6A061F58C4 /* Headers */,
+				A20441DC19792699AB1A1A61719FCA25 /* Sources */,
+				EA70FB2840C49C1833A3352D1CF76208 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EB2552BF3ACCD3D7684741573FE2412 /* PBXTargetDependency */,
+				A646982814EA04AFEA4096C41D723088 /* PBXTargetDependency */,
+			);
+			name = "Pods-XWCamera";
+			productName = "Pods-XWCamera";
+			productReference = AF6EC669A53A61E765CB543DEA476D2E /* libPods-XWCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD6E640853A7668A05274B5AA4E3913F /* CTAssetsPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEF082079D951FFFED3892B353B07DE /* Build configuration list for PBXNativeTarget "CTAssetsPickerController" */;
+			buildPhases = (
+				2B7FCC9FB2B2A751C6A7E35383054B62 /* Headers */,
+				B99C0601DE9BBA7806447D6CE1D6305A /* Sources */,
+				BF525033B6CA854550B7400C1122E9D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61DF5C0136DA8874C7180184071D912 /* PBXTargetDependency */,
+				462A8E81DE0AFF295F37F29E39E94BA8 /* PBXTargetDependency */,
+			);
+			name = CTAssetsPickerController;
+			productName = CTAssetsPickerController;
+			productReference = 6C08E1C95A996865CE9C60714E893EC1 /* libCTAssetsPickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9FF95E594590872341EDED03F383DD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6E640853A7668A05274B5AA4E3913F /* CTAssetsPickerController */,
+				B11866BACEE51A96C54C95E9E19B17DC /* CTAssetsPickerController-CTAssetsPickerController */,
+				B882E53EBD15BC078EA147D1C8FC7D3A /* Pods-XWCamera */,
+				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7DE1A68BEE843C7421A6B7489F6AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C617323A8F083BD3BB1004CE926F62 /* ar.lproj in Resources */,
+				0FFE7F7DB7DC7D94BB168DD78130E26F /* da.lproj in Resources */,
+				8C726A16EE9F67046570C858917033F4 /* de.lproj in Resources */,
+				BD8DE690FC9BB56A6D7B7408F07F3B11 /* en.lproj in Resources */,
+				427192C3AF4FC5174615498FFEC913F6 /* es-MX.lproj in Resources */,
+				DAA61809EAE31711384A68234844FD7E /* es.lproj in Resources */,
+				2B3F8AF5C8B531B0D679E47E45CF8E9C /* fi.lproj in Resources */,
+				342913387A8BE705ACF5A3F140378036 /* fr.lproj in Resources */,
+				6FBC07E50B811A130BD0754889929B3B /* he.lproj in Resources */,
+				B94A9A1400E10CD54FA869E1F670B26C /* hi-IN.lproj in Resources */,
+				8A89BFAC05D4E20EA188BA7AB8B1C78E /* hu.lproj in Resources */,
+				EF595EBD31BB45BE018349D9AE525B8D /* id.lproj in Resources */,
+				F97B8A779DFD46C8AB2CDB73C32F70F8 /* it.lproj in Resources */,
+				6825DCCA938836AF4FFD084E811D186E /* ja.lproj in Resources */,
+				FB981316A1CE01B24AC74853CA5DDDBB /* ko.lproj in Resources */,
+				D7A2F126122996A245E62E9DFAE71DB7 /* nl-NL.lproj in Resources */,
+				EC4D6BDC056C9B0893F333FEB4DD4703 /* nl.lproj in Resources */,
+				895C5CD733B7099EE489EBC2F5BDF6DB /* pt-PT.lproj in Resources */,
+				AC70DF5425CDAE39337891DD3457F547 /* pt.lproj in Resources */,
+				4937248D257B89A09E8206B9C8F55FC3 /* ru.lproj in Resources */,
+				302A301AB52AFF8308EBF3879FC9DC22 /* sv.lproj in Resources */,
+				4D8D9F688C1B1DA4563B0B48B2F80087 /* tr.lproj in Resources */,
+				0D8B333A5465578940A27C94F7066C34 /* zh-Hans.lproj in Resources */,
+				C79DAC63FF2A4C69CBF73A075CD731E2 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C82CE372180B3E408559AEC4C23386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA8B45B40788B6AE5C4F65194665E89 /* ALView+PureLayout.m in Sources */,
+				F2757F0AB1C4A23C4FB4F7F9366B52EE /* NSArray+PureLayout.m in Sources */,
+				5C7F90E9B7B5C1E4A970D23858AA259C /* NSLayoutConstraint+PureLayout.m in Sources */,
+				308507082E2D8C05B7E45658A2E98ACB /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7391FE4B3314BF9B2C7AA4CFED9BFB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20441DC19792699AB1A1A61719FCA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDECA434B2CE6C66A46A20ECFA394D6 /* Pods-XWCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99C0601DE9BBA7806447D6CE1D6305A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C188BF7C14938676709023A4BC06574 /* CTAssetCheckmark.m in Sources */,
+				C7BECB38898697CCE5CA5B27AFCB228B /* CTAssetCollectionViewCell.m in Sources */,
+				169E5F2308BE90156266A60DCCAA9242 /* CTAssetCollectionViewController.m in Sources */,
+				35076E112CFED5EEF65D0B37F0EA48B0 /* CTAssetItemViewController.m in Sources */,
+				DA50E747CD03B264C88BBEDA08B7414F /* CTAssetPlayButton.m in Sources */,
+				128DFDCA780C645B968614EA2D29E047 /* CTAssetScrollView.m in Sources */,
+				449554A2CD7787A7D7B7E83594022EC2 /* CTAssetSelectionButton.m in Sources */,
+				91DA00B51A882DC3E9929F4FC5B77E91 /* CTAssetSelectionLabel.m in Sources */,
+				4C38AAF46619540C9304CBF818E94177 /* CTAssetsGridSelectedView.m in Sources */,
+				09AA1DD6FE1EAAF380A1D5F7A32B8725 /* CTAssetsGridView.m in Sources */,
+				0E570B036CD5703D9250F23F2C8CB071 /* CTAssetsGridViewCell.m in Sources */,
+				67DD73E55858794A1579A2E7C6E7857A /* CTAssetsGridViewController.m in Sources */,
+				0C45C5C30FCE90DF8C3E6F1ED5145833 /* CTAssetsGridViewFooter.m in Sources */,
+				CF98B6BF6A7E7240DD08868D4E94C1BC /* CTAssetsGridViewLayout.m in Sources */,
+				08214ED48FF392334DD514B50DBFA2E8 /* CTAssetsNavigationController.m in Sources */,
+				DEE6FBD77FCBEF6ECF5D507D25D002EB /* CTAssetsPageView.m in Sources */,
+				3AB60B23444EC72E7318269484EC5894 /* CTAssetsPageViewController.m in Sources */,
+				7489135B223406EDC7F5C3153F9EB051 /* CTAssetsPickerAccessDeniedView.m in Sources */,
+				C57343FDC1DE8AD7129A86920733FEA5 /* CTAssetsPickerController-dummy.m in Sources */,
+				3420C84F258DC0DCF109373F3A742D18 /* CTAssetsPickerController.m in Sources */,
+				67BA4CE8919F55ECD745F17558048803 /* CTAssetsPickerNoAssetsView.m in Sources */,
+				F91955690B7CE31379289DF99C2D3759 /* CTAssetsViewControllerTransition.m in Sources */,
+				C34E60AF2D8DDF1855970E978A9E3F96 /* CTAssetThumbnailOverlay.m in Sources */,
+				D30A1C8F82EE0EC024BD1363AA22BDBE /* CTAssetThumbnailStacks.m in Sources */,
+				944D554048D6270A6244DEEACDB76815 /* CTAssetThumbnailView.m in Sources */,
+				8DE43A5ED8CC24C5B0C445564AF1E27E /* NSBundle+CTAssetsPickerController.m in Sources */,
+				A879B1BFC868A65FAFAD99DC9F39AD82 /* NSDateFormatter+CTAssetsPickerController.m in Sources */,
+				28F04FC23A90677F59EEAA71EC02A3D2 /* NSIndexSet+CTAssetsPickerController.m in Sources */,
+				742C386A8C86864416529EAD45863E07 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */,
+				30D08A4166FE987530C3BEC7AAD60282 /* PHAsset+CTAssetsPickerController.m in Sources */,
+				2ECDA499E2A92B5CF1022024A7AAEDD8 /* PHAssetCollection+CTAssetsPickerController.m in Sources */,
+				4B288BE731E55C7E74EBBE198E10D8AB /* PHImageManager+CTAssetsPickerController.m in Sources */,
+				1627B1DB188D2C8ECF665E70871F4973 /* UICollectionView+CTAssetsPickerController.m in Sources */,
+				FF5535E9E8F50CDCFF64270ACD0C3D1C /* UIImage+CTAssetsPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EB2552BF3ACCD3D7684741573FE2412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTAssetsPickerController;
+			target = CD6E640853A7668A05274B5AA4E3913F /* CTAssetsPickerController */;
+			targetProxy = 61550346F067FA41F7A17E171FF3DDBE /* PBXContainerItemProxy */;
+		};
+		462A8E81DE0AFF295F37F29E39E94BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = 026DCF0C26A9828CC049F154BD3109FE /* PBXContainerItemProxy */;
+		};
+		A61DF5C0136DA8874C7180184071D912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CTAssetsPickerController-CTAssetsPickerController";
+			target = B11866BACEE51A96C54C95E9E19B17DC /* CTAssetsPickerController-CTAssetsPickerController */;
+			targetProxy = 8946BE5BA8EDF2EDDBAF516EDC07A614 /* PBXContainerItemProxy */;
+		};
+		A646982814EA04AFEA4096C41D723088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = 004E18EA7D4FDF162B3C265C2D409F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32E4BCC3C4F25DF5EB7B22AB6BE4FE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EEB3E2509508BBE7F4956018787742 /* CTAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CTAssetsPickerController";
+				INFOPLIST_FILE = "Target Support Files/CTAssetsPickerController/ResourceBundle-CTAssetsPickerController-CTAssetsPickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CTAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		56271E590F34D8275B14309D8C5D89D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EEB3E2509508BBE7F4956018787742 /* CTAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTAssetsPickerController/CTAssetsPickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTAssetsPickerController;
+				PRODUCT_NAME = CTAssetsPickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823D74E7218A5D65718956CE35261C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D01D92E9B59D153E75731BA333099AD /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC2656DB6D37ACAF289842EC45A441AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EEB3E2509508BBE7F4956018787742 /* CTAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTAssetsPickerController/CTAssetsPickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTAssetsPickerController;
+				PRODUCT_NAME = CTAssetsPickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0098044E2249E025837B667AA2BDCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71FB2B6E3E78D1D9DC0CAC271D96F6C /* Pods-XWCamera.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0E3CDBA89FED8F5F7E0826C9BD886F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EEB3E2509508BBE7F4956018787742 /* CTAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CTAssetsPickerController";
+				INFOPLIST_FILE = "Target Support Files/CTAssetsPickerController/ResourceBundle-CTAssetsPickerController-CTAssetsPickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CTAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EA7691A77DF83C9263109736C4CF651E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA9EC41AE644669F379071B25CF5D6F /* Pods-XWCamera.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F213F22EDA4A218CA92A4C41B07D1C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D01D92E9B59D153E75731BA333099AD /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15BCA055364B9FD2D4A9254E58AA7DD4 /* Build configuration list for PBXNativeTarget "Pods-XWCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7691A77DF83C9263109736C4CF651E /* Debug */,
+				D0098044E2249E025837B667AA2BDCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99A655B4A87211C7B148ED0D9B2B8C /* Build configuration list for PBXNativeTarget "CTAssetsPickerController-CTAssetsPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E4BCC3C4F25DF5EB7B22AB6BE4FE98 /* Debug */,
+				DB0E3CDBA89FED8F5F7E0826C9BD886F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EAEA2205F580D230990DC85B177567 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823D74E7218A5D65718956CE35261C45 /* Debug */,
+				F213F22EDA4A218CA92A4C41B07D1C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEF082079D951FFFED3892B353B07DE /* Build configuration list for PBXNativeTarget "CTAssetsPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56271E590F34D8275B14309D8C5D89D5 /* Debug */,
+				CC2656DB6D37ACAF289842EC45A441AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

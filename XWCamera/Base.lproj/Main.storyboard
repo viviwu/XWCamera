@@ -22,9 +22,17 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="M6L-IX-JPd"/>
-                        <barButtonItem systemItem="compose" id="zIx-rQ-jfK"/>
+                        <barButtonItem systemItem="compose" id="zIx-rQ-jfK">
+                            <connections>
+                                <action selector="pickAssets:" destination="BYZ-38-t0r" id="UNr-MQ-dhF"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="lnq-LQ-YVJ"/>
-                        <barButtonItem systemItem="camera" id="vhS-BD-L1f"/>
+                        <barButtonItem systemItem="camera" id="vhS-BD-L1f">
+                            <connections>
+                                <action selector="openCamera:" destination="BYZ-38-t0r" id="7gi-Zf-p23"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="wcv-rW-rsp"/>
                         <barButtonItem systemItem="bookmarks" id="Ri7-h6-ugg"/>
                         <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="EAS-hE-YDD"/>
