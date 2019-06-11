@@ -1,1 +1,0 @@
-../../../../CTAssetsPickerController/CTAssetCollectionViewCell.h

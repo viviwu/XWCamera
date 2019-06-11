@@ -7,14 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CTAssetsPickerController/CTAssetsPickerController.h>
-#import <CTAssetsPickerController/CTAssetsPageViewController.h>
 
-@interface HomeViewController : UIViewController<CTAssetsPickerControllerDelegate>
 
-@property (nonatomic, copy) NSArray *assets;
-@property (nonatomic, strong) NSDateFormatter *dateFormatter;
-@property (nonatomic, strong) PHImageRequestOptions *requestOptions;
+@interface HomeViewController : UIViewController
+
 
 @end
 

@@ -1,0 +1,6 @@
+framework module Pods_XWCamera {
+  umbrella header "Pods-XWCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,1 +1,0 @@
-../../../../CTAssetsPickerController/CTAssetsPickerNoAssetsView.h

@@ -1,1 +1,0 @@
-../../../../CTAssetsPickerController/CTAssetsPickerAccessDeniedView.h
